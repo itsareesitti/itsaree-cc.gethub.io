@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>03-JS-Button By Itsaree</title>
+    <script>
+        function button_click() {
+            window.confirm('Hello World')
+            
+        }
+
+    </script>
+</head>
+<body class="content m-5">
+    <div>
+    <p><input type="button" value="Click Me" name="" id=""
+        onclick = "document.write('Hello')"></p>
+    
+    <p><input type="button" value="Click Here" name="" id=""
+        onclick = "document.write('Hello')"></p>
+    
+    <p><button class="button is-danger is-light" type="button" onclick = "
+        window.confirm('Hello')
+        window.alert('World')
+        ">กดตรงนี้</button></p>
+    
+    <p><button class="button is-success is-light" type="button" onclick="button_click()">Submit</button></p>
+
+    <div class="buttons">
+        <button class="button is-primary is-light">Primary</button>
+        <button class="button is-link is-light">Link</button>
+      </div>
+      
+      <div class="buttons">
+        <button class="button is-info is-light">Info</button>
+        <button class="button is-success is-light">Success</button>
+        <button class="button is-warning is-light">Warning</button>
+        <button class="button is-danger is-light">Danger</button>
+      </div>
+    </div>
+</body>
+</html>
